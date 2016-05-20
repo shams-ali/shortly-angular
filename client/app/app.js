@@ -17,11 +17,11 @@ angular.module('shortly', [
     })
     .when('/links', {
       templateUrl: 'app/links/links.html',
-      controller: 'AuthController'
+      controller: 'LinksController'
     })
     .when('/shorten', {
       templateUrl: 'app/shorten/shorten.html',
-      controller: 'AuthController'
+      controller: 'ShortenController'
     });
     // Your code here
 
