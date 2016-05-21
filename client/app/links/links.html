@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <div ng-controller="LinksController" id="container">
-  <h1>{{hello}}</h1>
-  <!-- Your html here -->
+  <h1>Links</h1>
+  <ul>
+    <li ng-repeat="d in data">
+      {{d}}
+    </li>
+  </ul>
+  <a href="#/links">Shorten a <strong>Link</strong> ...</a>
 </div>
