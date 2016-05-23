@@ -2,8 +2,8 @@
 <div ng-controller="ShortenController" id="container">
 <!-- Your code here -->
 <h1>Shorten</h1>
-<form name="shortenForm" ng-submit="addLink()">
-  <input type="text" ng-model="data.link">
+<form name="shortenForm" ng-submit="addLink(link.link)">
+  <input type="text" ng-model="link.link">
   <button>Shorten</button>
 </form>
 <a href="#/links">Go to your <strong>Links</strong> ...</a>
